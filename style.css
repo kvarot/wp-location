@@ -1,0 +1,235 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://themeforest.net/user/artbees
+Description:    Child theme for the Jupiter theme 
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Version:        1.0
+*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*
+@media (min-width: 993px) {
+ 
+body .woocommerce .col2-set .col-1{width:100%;}
+.woocommerce-billing-fields h3{ }
+.woocommerce .col2-set, .woocommerce-page .col2-set{width:48%;float:left;}
+#order_review_heading, .woocommerce #order_review, .woocommerce-page #order_review{float:left;width:48%;margin-left:2%;}
+}
+
+  
+DIV.summary.entry-summary A.compare.button {display: none}
+*/
+
+/****************CHECKOUT***************/
+/*
+TD.product-name{width: 70% !important}
+.woocommerce form .form-row {
+    width: 100% !important;
+}
+.woocommerce-checkout #payment div.payment_box input.input-text, .woocommerce-checkout #payment div.payment_box textarea {
+    width: 100% !important;
+    padding: 8px;
+}
+.woocommerce #payment .form-row select, .woocommerce-page #payment .form-row select {
+    width: 100%;
+    height: 30px;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: left;
+    width: 100%;
+}
+.custom-checkout h3 {
+    background-color: #165f1c;   
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #FFF;
+    float: right;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    outline: 0;
+    border: 0;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-weight: 400;
+   border:solid 2px #e4e4e4;
+}
+
+#wc_checkout_add_ons {
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+@media screen and (min-width: 980px) {
+.woocommerce-shipping-fields h3, .woocommerce-billing-fields h3 {width:100%;}
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+ width: 45%;
+ float: left;
+}
+.woocommerce-checkout-review-order{
+ width: 45%;
+ float: right;
+}
+}
+@media screen and (max-width: 979px) {
+.custom-checkout h3 {
+ width: 100%;
+}
+}
+*/
+LI.wc_payment_method.payment_method_paybox > LABEL > IMG {width: 100px !important}
+DIV.woocommerce-message {display: none !important}
+P.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {background-color: #ac0000 !important; color: white !important; text-align: center;border: none !important}
+ 
+/* .wceb_picker_wrap p {width: 50% !important;} */
+
+TABLE.variations TD.label > LABEL, P.form-row.form-row-wide {text-transform: uppercase !important; font-size: 12px !important; font-weight: 900 !important; color: #000 !important}
+ 
+.picker__day--outfocus {
+color: #898989;
+}
+
+H1.page-title, H2.page-title, DIV.product_meta {display: none !important}
+DIV.mk-breadcrumbs-inner.light-skin {float: left !important}
+
+DIV.tc-epo-totals {height:70px !important;float:left !important;  margin-right: 50px !important}
+DIV.summary.entry-summary A.compare.button {display: none !important}
+DIV.tm-description > H6 {color: #414141; font-size: 13px}
+DIV.tm-collapse {border-color: #cbcbcb !important}
+DIV.chat-chat-btn.btn-classic {padding:0px !important; height: 45px !important}
+A.product_loop_button  { display: none !important}  
+A.compare.added.button, A.compare.button {  background-color: #fff; font-size: 11px; color: #000 !important;padding: 7px !important;width: 33% !important; border: 1px solid black !important}
+A.compare.added.button {  background-color: #c2a793;font-size: 11px;}
+/* DIV#bouton_voir { background-color: #b7a69a; font-size: 12px;    padding: 9px 12px 8px 12px !important; float: left; text-transform: uppercase; color: #fff !important; text-align: center !important; font-weight: bold;width: 50%} */
+
+DIV#bouton_voir { background-color: #fff; font-size: 12px;    padding: 2px 0px 2px 0px ;margin-right: 10px;float: left; text-transform: uppercase; color: #000 !important; text-align: center !important; font-weight: bold;width: 48%; border: 1px solid black;margin-left: 10px}
+DIV#bouton_voir:hover { background-color: #a1958d;  color: #fff !important}
+ 
+
+DIV.mk-product-holder h3 {font-size: 18px !important; font-style: italic; font-weight: 900 !important; color: black;margin:0 !important;padding: 0px !important}
+DIV.mk-product-holder h3 a{font-size: 18px !important; font-style: italic; font-weight: 900 !important; color: black;margin:0 !important;padding: 0px !important}
+
+.prod-title {font-size: 18px !important; font-style: italic; font-weight: 900 !important; color: black;margin:0 !important;padding: 0px !important}
+
+
+
+.tm-epo-field.tmcp-select{width:100%; }
+ H1.page-title {font-style: italic}
+H4.mk-woocommerce-shop-loop__title {font-style: italic; font-size: 25px !important}
+ .sidebar-wrapper .widgettitle {font-size: 23px !important; border-bottom: 1px dotted black;padding-bottom: 10px}
+ .sidebar-wrapper A.mk-button {font-style: italic; line-height: 25px; background-color: #ac0000 !important;border:none}
+DIV.mk-language-nav {display: none !important}
+ 
+ A.woocommerce-button.button.view {margin-bottom: 10px !important}
+.chat-widget, DIV.chat-chat-btn.btn-classic {margin-right: 30px !important; }
+ 
+ #cookie-notice .button.wp-default {
+	
+	font-size: 10px !important;
+	background: black !important
+	
+}
+SELECT.tmcp-field.tm-epo-field.tmcp-select  {width: auto !important}
+  SPAN.tagged_as {display: none !important}
+
+SELECT.orderby {display: none !important}
+A.infobox__row.infobox__cta.ssflinks {color: red !important}
+ /*
+.store-locator-top-half.has-searched {
+    height: 700px !important;
+}
+
+.store-locator-map {
+  height: 700px !important;
+}
+*/
+SPAN.nf-form-title > H3 {margin-bottom: 30px}
+HR.ninja-forms-field {height: 6px;
+	border: 0;
+  border-top: 2px dotted red;margin-top: 50px; margin-bottom: 50px}
+  DIV.nf-field-label > LABEL {text-transform: uppercase; color: black}
+A.ssf-button.expand {font-size:10px !important}
+.mk-circle-image.avantages IMG.mk-circle-image__img{background-color: black !important;   }
+.mk-circle-image.avantages .mk-circle-image__holder {width:  100px !important;}
+DIV.chat-chat-btn.btn-classic, DIV.chat-clear {background-color: red !important}
+A.chat-form-btn {background: red !important}
+
+DIV.edge-title {background: rgba(0, 0, 0, 0.40) ;padding: 20px; margin: 0px !important; font-style: italic !important; }
+DIV.edge-desc {background:rgba(0, 0, 0, 0.50);padding: 20px;font-size: 30px !important }
+
+DIV.mk-blog-author {display: none !important}
+DIV.fts-jal-fb-group-header-desc, DIV.fts-jal-fb-header, DIV.mk-blog-meta-wrapper   {display: none}
+DIV.mk-text-block.mk-animate-element.bottom-to-top.mk-in-viewport > H6, DIV.mk-text-block.mk-animate-element.bottom-to-top.mk-in-viewport > P {text-align: justify; text-transform: none !important}
+ DIV.mk-text-block.mk-animate-element.bottom-to-top.mk-in-viewport > P {font-size: 12px}
+
+DIV.mk-message-box.mk-info-message-box {padding: 20px !important; margin-bottom: 20px !important}
+DIV.mk-message-box.mk-confirm-message-box > SPAN {background-color: #e5352b;  color: #fff; border: none  !important  }
+DIV.mk-message-box.mk-confirm-message-box, DIV.mk-message-box.mk-info-message-box  {background-color: #e5352b;  color: #fff; border: none  !important  }
+DIV.mk-message-box   {  border: 1px solid #000 }
+A.button.wc-forward {background-color: #e06a00 !important}
+   
+SPAN.tm-epo-required {font-size: 20px !important;margin-right: 10px}
+
+DIV.cpf-section, DIV.tc-epo-totals, .compare-list {font-family: 'Roboto Condensed';}
+P.stock.in-stock {display: none}
+.mk-flipbox-content IMG {width:70px}
+DIV.front-title {line-height: 35px !important}
+HEADER.filter-faq.fancy-style {display: none}
+DIV.mk-toggle-title {font-size: 20px !important}
+SPAN.tc-label.tm-label {font-size: 13px !important; text-transform: uppercase; font-weight: 900; }
+  DD.tm-final-totals SPAN.price.amount.final, DD.tm-options-totals SPAN.price.amount.options  {color: #ff6700 !important}
+LI.tmcp-field-wrap SPAN.amount  {color: #ff6700 !important}
+I.tm-tooltip.tc-tooltip.tcfa.tcfa-question-circle {color:#4a4a4a !important;vertical-align: middle}
+
+.tm-tooltip {float: right !important;  }
+ H5.tm-epo-field-label.tm-has-required
+ {font-size:  14px !important}
+DD.tm-options-totals, DT.tm-options-totals {display: none}
+ H2.tm-epo-field-label.tm-section-label {margin-top: 20px}
+ H2.tm-epo-field-label.tm-section-label.tm-toggle {font-size: 22px !important; font-style: italic}
+ DIV.tm-description > P {font-size: 15px !important}
+ DIV.tm_divider {display: none}
+ SPAN.tcfa.tm-arrow.tcfa-angle-down {font-size: 45px !important; font-weight: 900 !important}
+DIV.cpf_hide_element.tm-cell.col-3.cpf-type-header {width:12% !important}
+DIV.cpf_hide_element.tm-cell.col-3.cpf-type-header IMG{border:1px solid #cfcfcf; }
+DIV.cpf_hide_element.tm-cell.col-12 IMG, DIV.cpf-section IMG {width: 50px !important; vertical-align: middle}
+
+DT.tm-fb-title, DD.tm-fb-value {line-height: 15px}
+.compare-list TH {font-size: 12px !important}
+ 
+#location tr {border: 1px solid black}
+#location td {border: 1px solid #878787}
+TABLE#location > TBODY > TR > TD {font-size: 20px; text-align: center !important; font-weight: 900; vertical-align: middle}
+TABLE#location > THEAD > TR > TH {font-size: 12px; text-align: center !important; border: 1px solid #878787; vertical-align: middle}
+
+
+DIV.mk-tabs-panes.page-bg-color   {padding: 10px !important}
+DIV.mk-tabs-pane.panel.entry-content.wc-tab > H4 {display: none}
+td, th{text-align: left !important}
+
+h1.title {font-size: 35px !important; font-style: italic; font-weight: 900 !important}
+
+DIV.theme-content .mk-product-details h1.title {font-size: 40px !important; font-style: italic; font-weight: 900 !important}
+
+
+SECTION#mk-footer H6 {color:white; text-transform: uppercase ; font-weight: 900}
+DIV.widgettitle {  font-family: 'Roboto Condensed'; font-style: italic
+}
+A.menu-item-link {font-style: italic}
+.header-section.mk-header-social svg {
+    fill: black !important;
+	color:black !important;
+}
+ .header-section.mk-header-social svg:hover {
+    fill: #e6332a !important;
+	color:#e6332a !important;
+}

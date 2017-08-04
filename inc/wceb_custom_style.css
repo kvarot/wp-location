@@ -1,0 +1,28 @@
+.wceb_custom_fields {
+	display: none;
+}
+
+.woocommerce form .wceb_picker_wrap .form-row-wide,
+.woocommerce form .wceb_custom_fields .form-row-wide {
+	clear: none;
+	float: left;
+	width: 48%;
+}
+
+@media screen and (max-width: 560px) {
+	.woocommerce form .wceb_picker_wrap .form-row-wide,
+	.woocommerce form .wceb_custom_fields .form-row-wide {
+		clear: both;
+		width: 100%;
+	}
+}
+
+.woocommerce form .wceb_picker_wrap .form-row-wide input,
+.woocommerce form .wceb_custom_fields .form-row-wide select,
+.woocommerce form .wceb_custom_fields .form-row-wide input {
+	width: 100%;
+}
+
+.quantity {
+	display: none;
+}
